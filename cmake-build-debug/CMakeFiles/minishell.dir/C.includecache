@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hbrent/Desktop/minishell/Lib/ft_atoi.c
+libft.h
+/Users/hbrent/Desktop/minishell/Lib/libft.h
+
+/Users/hbrent/Desktop/minishell/Lib/libft.h
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+

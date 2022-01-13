@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minishell"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hbrent/Desktop/minishell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hbrent/Desktop/minishell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hbrent/Desktop/minishell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minishell">
+				<Option output="/Users/hbrent/Desktop/minishell/cmake-build-debug/minishell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hbrent/Desktop/minishell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hbrent/Desktop/minishell/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minishell/fast">
+				<Option output="/Users/hbrent/Desktop/minishell/cmake-build-debug/minishell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hbrent/Desktop/minishell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hbrent/Desktop/minishell/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/hbrent/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_atoi.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_bzero.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_calloc.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_isalnum.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_isalpha.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_isascii.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_isdigit.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_isprint.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_itoa.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstadd_back.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstadd_front.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstclear.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstdelone.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstiter.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstlast.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstmap.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstnew.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_lstsize.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_memccpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_memchr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_memcmp.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_memcpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_memmove.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_memset.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_putchar_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_putendl_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_putnbr_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_putstr_fd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_split.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_split_free.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strchr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strdup.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strjoin.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strlcat.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strlcpy.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strlen.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strmapi.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strncmp.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strnstr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strrchr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_strtrim.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_substr.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_tolower.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/Lib/ft_toupper.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/cd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/cd_utils.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/echo.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/env.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/exit.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/export.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/export_print.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/export_utils.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/help.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/pwd.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/builtins/unset.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/includes/builtins.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/includes/includes.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/includes/logic.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/includes/minishell.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/includes/parser.h">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/dups.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/env_utils.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/errors.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/init.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/loop.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/lst.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/parser.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/parser_utils.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/pipes.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/pipes_utils.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/redirects.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/signals.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/kernel/utils.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/main.c">
+			<Option target="minishell"/>
+		</Unit>
+		<Unit filename="/Users/hbrent/Desktop/minishell/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
