@@ -17,7 +17,7 @@ int	main(int ac, char **ag, char **env)
 	t_shell	shell;
 	int		rl_catch_signals;
 
-	if (ac != 1)
+    if (ac != 1)
 	{
 		printf(SIL"%s: %s: No such file or directory\n"RESET,
 			getenv("USER"), ag[1]);

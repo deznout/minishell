@@ -26,7 +26,7 @@ static void	ft_init_env(t_shell *shell, char *envp[])
 		envp++;
 	}
 	ft_lstadd_front(&shell->env, ft_lstnew(shlvl));
-	shell->arr_env = ft_lst_to_array(shell->env);
+	shell->env_arr = ft_lst_to_array(shell->env);
 	free(tmp);
 }
 
@@ -36,9 +36,9 @@ void	ft_init(t_shell *shell, char *envp[])
 	rl_outstream = stderr;
 	shell->env = NULL;
 	shell->cmds = NULL;
-	shell->arr_env = NULL;
+	shell->env_arr = NULL;
 	shell->ps = ft_allocate(100);
-	shell->buil_cmd = ft_split(BUIL_CMD, ':');
+	shell->built_cmd = ft_split(BUIL_CMD, ':');
 	ft_init_ps(shell);
 	ft_init_env(shell, envp);
 	ft_copy_std_io(shell);

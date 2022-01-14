@@ -31,7 +31,7 @@
 # include "../Lib/libft.h"
 // DEBUG
 
-typedef struct s_cmd
+typedef struct g_cmd
 {
 	char			**arg;
 	t_list			*lst;
@@ -39,12 +39,13 @@ typedef struct s_cmd
 	int				pipe_fd[2];
 	int				std_in;
 	int				std_out;
+	// int             is_quote;
 	pid_t			pid;
 	bool			is_fork;
-	struct s_cmd	*next;
-}	t_cmd;
+	struct g_cmd	*next;
+}	                t_cmd;
 
-typedef struct s_shell
+typedef struct g_shell
 {
 	char	*ps;
 	t_list	*env;
@@ -53,8 +54,8 @@ typedef struct s_shell
 	int		old_in;
 	int		old_out;
 	int		cmd_status;
-	char	**arr_env;
-	char	**buil_cmd;
-}	t_shell;
+	char	**env_arr;
+	char	**built_cmd;
+}	        t_shell;
 
 #endif //INCLUDES_H

@@ -63,7 +63,7 @@ int	ft_loop(t_shell *shell)
 {
 	char	*str;
 
-	using_history();
+    using_history();
 	while (true)
 	{
 		str = readline(shell->ps);

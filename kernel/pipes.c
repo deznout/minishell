@@ -25,7 +25,7 @@ void	ft_run_cmd(t_shell *shell, t_cmd *cmd)
 	cmd_name = cmd->arg[0];
 	while (ft_gen_next_path(cmd->arg, paths, cmd_name, &z))
 	{
-		execve(cmd->arg[0], cmd->arg, shell->arr_env);
+		execve(cmd->arg[0], cmd->arg, shell->env_arr);
 		if (errno == ENOEXEC)
 			exit(0);
 		if (errno != 2)

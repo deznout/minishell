@@ -45,7 +45,6 @@ char	**ft_get_paths(t_shell *shell);
 char	**ft_lst_to_array(t_list *lst);
 
 void	*ft_allocate(size_t size);
-void	ft_split_free(char **arr);
 void	ft_cmd_add_back(t_cmd **lst, t_cmd *new);
 void	ft_raise_error_n(char *error_msg, int code);
 void	rl_replace_line(const char *buffer, int val);

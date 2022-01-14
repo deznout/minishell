@@ -12,12 +12,13 @@
 
 #include "minishell.h"
 
-static void	ft_parser_pipes(char *str)
+static void	ft_parser_pipes(char *str)  // int *is_quote)
 {
 	bool	b_pipe;
 	bool	b_words;
 
 	b_pipe = false;
+//	*is_quote = 0;
 	while (*str && g_status == 0)
 	{
 		if (*str == '|' && !b_words)

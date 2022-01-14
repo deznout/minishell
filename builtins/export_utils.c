@@ -48,11 +48,11 @@ void	ft_sort_env(t_shell *shell, int len_env)
 		j = -1;
 		while (++j < len_env - 1)
 		{
-			if (ft_custom_strcmp(shell->arr_env[j], shell->arr_env[j + 1]) > 0)
+			if (ft_custom_strcmp(shell->env_arr[j], shell->env_arr[j + 1]) > 0)
 			{
-				tmp = shell->arr_env[j];
-				shell->arr_env[j] = shell->arr_env[j + 1];
-				shell->arr_env[j + 1] = tmp;
+				tmp = shell->env_arr[j];
+				shell->env_arr[j] = shell->env_arr[j + 1];
+				shell->env_arr[j + 1] = tmp;
 			}
 		}
 	}

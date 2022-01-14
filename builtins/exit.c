@@ -63,21 +63,20 @@ static bool	ft_many_args(void)
 	return (true);
 }
 
-static bool	ft_exit_no_num(char *argv)
+static int	ft_exit_no_num(char *argv)
 {
-    ft_putstr_fd(SIL"./minishell: ", 2);
+    ft_putstr_fd(SIL"shell: ", 2);
 	ft_putstr_fd(SIL"exit: ", 2);
 	ft_putstr_fd(argv, 2);
 	ft_putstr_fd(": numeric argument required", 2);
 	ft_putstr_fd(RESET"\n", 2);
 	exit(255);
-	return (true);
 }
 
 int	ft_exit(char **argv, t_shell *msh)
 {
 	(void) msh;
-	ft_putstr_fd(CYN"exit || bye!\n"RESET, 1);
+	ft_putstr_fd(CYN"exit\n"RESET, 1);
 	if (argv[1] == NULL)
 		exit(msh->cmd_status);
 	if (ft_isalldigit(argv[1]))

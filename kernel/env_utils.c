@@ -53,9 +53,9 @@ void	ft_delete_el_env(t_shell *shell, const char *key)
 	res = ft_lstpop_find(&shell->env, key);
 	if (res)
 	{
-		ft_split_free(shell->arr_env);
+		ft_split_free(shell->env_arr);
 		ft_lstclear(&res, free);
-		shell->arr_env = ft_lst_to_array(shell->env);
+		shell->env_arr = ft_lst_to_array(shell->env);
 	}
 }
 
@@ -63,6 +63,6 @@ void	ft_update_el_env(t_shell *shell, const char *keyval)
 {
 	ft_delete_el_env(shell, keyval);
 	ft_lstadd_front(&shell->env, ft_lstnew(ft_strdup(keyval)));
-	ft_split_free(shell->arr_env);
-	shell->arr_env = ft_lst_to_array(shell->env);
+	ft_split_free(shell->env_arr);
+	shell->env_arr = ft_lst_to_array(shell->env);
 }

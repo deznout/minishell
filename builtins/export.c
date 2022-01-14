@@ -34,8 +34,8 @@ int	ft_export(char **argv, t_shell *shell)
 	ret_vel = false;
 	if (ft_split_len(argv) == 1)
 	{
-		ft_sort_env(shell, ft_split_len(shell->arr_env));
-		print_export(shell->arr_env);
+		ft_sort_env(shell, ft_split_len(shell->env_arr));
+		print_export(shell->env_arr);
 		return (ret_vel);
 	}
 	while (argv[++i])

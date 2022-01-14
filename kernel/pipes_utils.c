@@ -59,7 +59,7 @@ char	**ft_get_paths(t_shell *shell)
 
 void	ft_run_builtin(t_shell *shell, t_cmd *cmd, char *name)
 {
-	if (!ft_strncmp(name, "echo", ft_strlen(name)))
+	if (!ft_strncmp(name, "echo", ft_strlen(name))) //&& name[0] != '\0')
 		g_status = ft_echo(cmd->arg);
 	else if (!ft_strncmp(name, "cd", ft_strlen(name)))
 		g_status = ft_cd(cmd->arg, shell);
@@ -86,8 +86,8 @@ int	is_builtin(t_shell *shell, char *name)
 	if (!name)
 		return (false);
 	i = 0;
-	while (shell->buil_cmd[i])
-		if (!ft_strncmp(shell->buil_cmd[i++], name, ft_strlen(name)))
+	while (shell->built_cmd[i])
+		if (!ft_strncmp(shell->built_cmd[i++], name, ft_strlen(name)))
 			return (true);
 	return (false);
 }
